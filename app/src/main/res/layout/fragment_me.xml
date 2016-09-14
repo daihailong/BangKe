@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue_normal"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="32dp">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/user_avatar"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:clickable="true"
+                    fresco:actualImageScaleType="centerInside"
+                    fresco:backgroundImage="@color/nav_p_normal"
+                    fresco:roundAsCircle="true"
+                    fresco:roundingBorderColor="@color/ic_border_color"
+                    fresco:roundingBorderWidth="1dp" />
+
+                <TextView
+                    android:id="@+id/tv_user_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="点击登录"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!--简历-->
+            <LinearLayout
+                android:id="@+id/ly_brief"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/setting_item_bg"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@mipmap/ic_brief" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:text="简历" />
+
+            </LinearLayout>
+            <!--end-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="16dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/nav_p_normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:layout_width="16dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/nav_p_normal" />
+
+            </LinearLayout>
+
+            <!--收藏-->
+            <LinearLayout
+                android:id="@+id/ly_collect"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/setting_item_bg"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@mipmap/ic_collect" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:text="收藏" />
+            </LinearLayout>
+            <!--end-->
+
+            <!--意见反馈-->
+            <LinearLayout
+                android:id="@+id/ly_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/setting_item_bg"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@mipmap/ic_feedback" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:text="意见反馈" />
+            </LinearLayout>
+            <!--end-->
+
+            <!--设置-->
+            <LinearLayout
+                android:id="@+id/ly_settings"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/setting_item_bg"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@mipmap/ic_settings" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:text="设置" />
+            </LinearLayout>
+            <!--end-->
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

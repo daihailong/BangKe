@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#03A9F4</color>
+
+
+    <color name="bg_border">#A5DC86</color>
+    <color name="bg_border_normal">#728ea3</color>
+
+
+    <color name="blue_pressed">#ff0099cc</color>
+    <color name="blue_normal">#ff33b5e5</color>
+    <color name="green_complete">#ff99cc00</color>
+    <color name="purple_progress">#ffaa66cc</color>
+    <color name="red_error">#ffff4444</color>
+
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+
+    <color name="text_color">#000000</color>
+    <color name="nav_pressed">#11cd6e</color>
+    <color name="nav_normal">#515151</color>
+    <color name="nav_p_normal">#FFFFFF</color>
+    <color name="nav_p_pressed">#ecf0f1</color>
+    <color name="title">#FF000000</color>
+    <color name="sub_title">#DD000000</color>
+    <color name="content">#FF515151</color>
+    <color name="wage">#d33722</color>
+    <color name="divider">#AA8a8a8a</color>
+    <color name="et_content">#AA8a8a8a</color>
+    <color name="time">#FFbfbfbf</color>
+    <color name="right_arrow">#FFbfbfbf</color>
+    <color name="bottom_bg">#AAFFFFFF</color>
+    <color name="ic_border_color">#FFe6e6e6</color>
+    <color name="log_out">#f82206</color>
+    <color name="error_code">#ff0505</color>
+    <color name="setting_item_pressed">#FFe6e6e6</color>
+</resources>
